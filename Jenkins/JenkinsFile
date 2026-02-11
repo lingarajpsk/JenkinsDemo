@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('Server Date') {
+        stage('Server Date Add') {
             steps {
                 sh 'date'
             }
